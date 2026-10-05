@@ -1,0 +1,48 @@
+{
+  "event": {
+    "event_id": "HR-001",
+    "person_id": "PERSON-100",
+    "kind": "joiner",
+    "department": "Finance"
+  },
+  "source_state_hash": "27ec1b7157d226d79507ea0ee5ba5aaaf0b195212473f5715332b58b78d757f3",
+  "policy_hash": "a527db1584da9176d7bca3114284e2717e82b763bfe9db70784b7b86f6ed03ed",
+  "actions": [
+    {
+      "system": "directory",
+      "operation": "create",
+      "person_id": "PERSON-100",
+      "department": "Finance"
+    },
+    {
+      "system": "directory",
+      "operation": "add_group",
+      "person_id": "PERSON-100",
+      "value": "GRP-BASE"
+    },
+    {
+      "system": "directory",
+      "operation": "add_group",
+      "person_id": "PERSON-100",
+      "value": "GRP-FINANCE"
+    },
+    {
+      "system": "saas",
+      "operation": "create",
+      "person_id": "PERSON-100"
+    },
+    {
+      "system": "saas",
+      "operation": "grant_role",
+      "person_id": "PERSON-100",
+      "value": "App User"
+    },
+    {
+      "system": "saas",
+      "operation": "grant_role",
+      "person_id": "PERSON-100",
+      "value": "Invoice Viewer"
+    }
+  ],
+  "plan_hash": "0e7df3f5c0022a2b0df8463651f8bfa617f72f233e7af6d1317fef67087e42fb"
+}

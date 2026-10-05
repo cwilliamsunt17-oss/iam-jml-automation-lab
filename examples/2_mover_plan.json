@@ -1,0 +1,43 @@
+{
+  "event": {
+    "event_id": "HR-002",
+    "person_id": "PERSON-100",
+    "kind": "mover",
+    "department": "Operations"
+  },
+  "source_state_hash": "8bfcdb241acb7d84473ce8e195874eea9af2d645b487a09fb71a4f0c6b966a4b",
+  "policy_hash": "a527db1584da9176d7bca3114284e2717e82b763bfe9db70784b7b86f6ed03ed",
+  "actions": [
+    {
+      "system": "directory",
+      "operation": "remove_group",
+      "person_id": "PERSON-100",
+      "value": "GRP-FINANCE"
+    },
+    {
+      "system": "saas",
+      "operation": "revoke_role",
+      "person_id": "PERSON-100",
+      "value": "Invoice Viewer"
+    },
+    {
+      "system": "directory",
+      "operation": "set_department",
+      "person_id": "PERSON-100",
+      "value": "Operations"
+    },
+    {
+      "system": "directory",
+      "operation": "add_group",
+      "person_id": "PERSON-100",
+      "value": "GRP-OPERATIONS"
+    },
+    {
+      "system": "saas",
+      "operation": "grant_role",
+      "person_id": "PERSON-100",
+      "value": "Case Editor"
+    }
+  ],
+  "plan_hash": "38185554eaa5b87606fe619297e0ab45cb1cdc2eec674d90502531f2cd33908b"
+}

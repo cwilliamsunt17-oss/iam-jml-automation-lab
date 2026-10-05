@@ -1,0 +1,7 @@
+{
+  "plan_hash": "38185554eaa5b87606fe619297e0ab45cb1cdc2eec674d90502531f2cd33908b",
+  "reviewer": "Demo Approver",
+  "decision": "approve",
+  "reason": "Confirm department transfer and remove Finance access before granting Operations access.",
+  "reviewed_at_utc": "2026-10-05T06:08:55.384321+00:00"
+}

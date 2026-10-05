@@ -1,0 +1,24 @@
+{
+  "directory": {
+    "PERSON-100": {
+      "enabled": true,
+      "department": "Finance",
+      "groups": [
+        "GRP-BASE",
+        "GRP-FINANCE"
+      ]
+    }
+  },
+  "saas": {
+    "PERSON-100": {
+      "active": true,
+      "roles": [
+        "App User",
+        "Invoice Viewer"
+      ]
+    }
+  },
+  "processed_event_ids": [
+    "HR-001"
+  ]
+}

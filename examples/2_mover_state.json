@@ -1,0 +1,25 @@
+{
+  "directory": {
+    "PERSON-100": {
+      "enabled": true,
+      "department": "Operations",
+      "groups": [
+        "GRP-BASE",
+        "GRP-OPERATIONS"
+      ]
+    }
+  },
+  "saas": {
+    "PERSON-100": {
+      "active": true,
+      "roles": [
+        "App User",
+        "Case Editor"
+      ]
+    }
+  },
+  "processed_event_ids": [
+    "HR-001",
+    "HR-002"
+  ]
+}

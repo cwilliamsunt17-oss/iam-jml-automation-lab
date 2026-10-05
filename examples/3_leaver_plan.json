@@ -1,0 +1,46 @@
+{
+  "event": {
+    "event_id": "HR-003",
+    "person_id": "PERSON-100",
+    "kind": "leaver"
+  },
+  "source_state_hash": "bf6b4764bce3e70ec9cf1cdb7ede1f42c401a47ad289d947d5a8cc0feb8ffebb",
+  "policy_hash": "a527db1584da9176d7bca3114284e2717e82b763bfe9db70784b7b86f6ed03ed",
+  "actions": [
+    {
+      "system": "directory",
+      "operation": "disable",
+      "person_id": "PERSON-100"
+    },
+    {
+      "system": "saas",
+      "operation": "deactivate",
+      "person_id": "PERSON-100"
+    },
+    {
+      "system": "saas",
+      "operation": "revoke_role",
+      "person_id": "PERSON-100",
+      "value": "App User"
+    },
+    {
+      "system": "saas",
+      "operation": "revoke_role",
+      "person_id": "PERSON-100",
+      "value": "Case Editor"
+    },
+    {
+      "system": "directory",
+      "operation": "remove_group",
+      "person_id": "PERSON-100",
+      "value": "GRP-BASE"
+    },
+    {
+      "system": "directory",
+      "operation": "remove_group",
+      "person_id": "PERSON-100",
+      "value": "GRP-OPERATIONS"
+    }
+  ],
+  "plan_hash": "9c1f5b4374f46482d4d4eb6da3509fb92d35350348676bf2646d756a4a42c5d9"
+}
