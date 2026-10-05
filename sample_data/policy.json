@@ -1,0 +1,12 @@
+{
+  "departments": {
+    "Finance": {
+      "groups": ["GRP-BASE", "GRP-FINANCE"],
+      "roles": ["App User", "Invoice Viewer"]
+    },
+    "Operations": {
+      "groups": ["GRP-BASE", "GRP-OPERATIONS"],
+      "roles": ["App User", "Case Editor"]
+    }
+  }
+}
