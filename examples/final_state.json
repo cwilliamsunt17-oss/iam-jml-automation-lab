@@ -1,0 +1,20 @@
+{
+  "directory": {
+    "PERSON-100": {
+      "enabled": false,
+      "department": "Operations",
+      "groups": []
+    }
+  },
+  "saas": {
+    "PERSON-100": {
+      "active": false,
+      "roles": []
+    }
+  },
+  "processed_event_ids": [
+    "HR-001",
+    "HR-002",
+    "HR-003"
+  ]
+}
