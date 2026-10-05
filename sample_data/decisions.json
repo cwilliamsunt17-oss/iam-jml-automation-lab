@@ -1,0 +1,5 @@
+[
+  {"event_id": "HR-001", "reviewer": "Demo Approver", "decision": "approve", "reason": "Confirm HR start event and Finance role mapping for the synthetic new hire."},
+  {"event_id": "HR-002", "reviewer": "Demo Approver", "decision": "approve", "reason": "Confirm department transfer and remove Finance access before granting Operations access."},
+  {"event_id": "HR-003", "reviewer": "Demo Approver", "decision": "approve", "reason": "Confirm separation event and disable the directory and SaaS identities."}
+]

@@ -1,0 +1,5 @@
+[
+  {"event_id": "HR-001", "person_id": "PERSON-100", "kind": "joiner", "department": "Finance"},
+  {"event_id": "HR-002", "person_id": "PERSON-100", "kind": "mover", "department": "Operations"},
+  {"event_id": "HR-003", "person_id": "PERSON-100", "kind": "leaver"}
+]
